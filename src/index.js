@@ -38,7 +38,7 @@ const manifest = {
   ],
   // Configuração para reivindicar autoria no stremio-addons.net
   stremioAddonsConfig: {
-    emissor: "https://stremio-bludv.onrender.com/",
+    emissor: "paeveio",
     assinatura: "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..aXC95dmM4hGiAdTcHHzqVw.0jaoNps2XTE6kzEVmNP501iwH1ktJdtdkf7MGj2ucdDX9qXNGNz8H3kVCfxta87gSMZl8XKcUxrNpyUHCWw0TgbzVgBWmBhP8AO5yjkgrd8PEKWM7F3X70-DSkXN4jbi.vQxPNGd2ZFq-L5ElE1b5sw"
   }
 };
