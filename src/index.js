@@ -37,7 +37,7 @@ const manifest = {
     },
   ],
   // Configuração para reivindicar autoria no stremio-addons.net
-  stremioAddonsConfig: {
+  "stremioAddonsConfig": {
     "issuer": "https://stremio-addons.net",
     "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..I38QaI3BnTY9TjyhpTglog.kGucjend1TDKVt0fgHhD7Fo2Hy-bbS-xAxoCAA8atwh4fYrENHCoVvN4e9mDPjaR8AHYC7U1LyKyi4zgpj6epg1IcvijJ839T8b3e_HVAbjLV9z2BMlDtr8_X9h09IKH.DiwWL-WKwvnmBGQD1oNkyQ"
   }
