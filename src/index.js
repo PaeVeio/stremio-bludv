@@ -38,8 +38,8 @@ const manifest = {
   ],
   // Configuração para reivindicar autoria no stremio-addons.net
   stremioAddonsConfig: {
-    emissor: "https://stremio-addons.net/users/paeveio",
-    assinatura: "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..aXC95dmM4hGiAdTcHHzqVw.0jaoNps2XTE6kzEVmNP501iwH1ktJdtdkf7MGj2ucdDX9qXNGNz8H3kVCfxta87gSMZl8XKcUxrNpyUHCWw0TgbzVgBWmBhP8AO5yjkgrd8PEKWM7F3X70-DSkXN4jbi.vQxPNGd2ZFq-L5ElE1b5sw"
+    "issuer": "https://stremio-addons.net",
+    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..I38QaI3BnTY9TjyhpTglog.kGucjend1TDKVt0fgHhD7Fo2Hy-bbS-xAxoCAA8atwh4fYrENHCoVvN4e9mDPjaR8AHYC7U1LyKyi4zgpj6epg1IcvijJ839T8b3e_HVAbjLV9z2BMlDtr8_X9h09IKH.DiwWL-WKwvnmBGQD1oNkyQ"
   }
 };
 
