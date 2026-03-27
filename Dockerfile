@@ -3,12 +3,15 @@ FROM node:18-slim
 # Metadados
 LABEL maintainer="BluDV Stremio Addon"
 LABEL description="Stremio addon para BluDV - Versão Torrent Direto"
-LABEL version="1.0.0"
+LABEL version="1.0.1"
+
+# Definir modo não interativo para evitar erros de debconf
+ENV DEBIAN_FRONTEND=noninteractive
 
 # Instalar dependências básicas para o Node.js
-RUN apt-get update && apt-get install -y \
-    wget \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends wget ca-certificates && \
+    rm -rf /var/lib/apt/lists/*
 
 # Diretório de trabalho
 WORKDIR /app
@@ -35,3 +38,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
 
 # Iniciar o servidor
 CMD ["node", "src/index.js"]
+
