@@ -1,9 +1,9 @@
-FROM node:18-slim
+FROM node:20-slim
 
 # Metadados
 LABEL maintainer="BluDV Stremio Addon"
 LABEL description="Stremio addon para BluDV - Versão Torrent Direto"
-LABEL version="1.0.1"
+LABEL version="1.0.2"
 
 # Definir modo não interativo para evitar erros de debconf
 ENV DEBIAN_FRONTEND=noninteractive
